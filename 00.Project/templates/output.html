@@ -1,0 +1,10 @@
+{% extends "base.html"%}
+{% block style_head %}{% endblock %}
+{% block body %}
+            <tr>
+               <th> 주소 </th>
+               <td> {{ result }} </td>
+               <img src="{{url_for('static', filename='upload/'+fname)}}" alt="입력된 사진">
+
+            </tr>
+{% endblock %}
