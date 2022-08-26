@@ -24,5 +24,10 @@ def input():
 @app.route('/center_list', methods=['GET','POST'])
 def center_list():
     return render_template('carcenter_list.html')
+
+
+
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True)
