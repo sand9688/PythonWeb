@@ -1,6 +1,12 @@
+testCase = list()
+testCase.append([3, 4])
+testCase.append([27, 19])
+
+
 def solution(num1, num2):
     answer = num1 * num2
     return answer
 
-print(solution(3,4))
-print(solution(27,19))
+
+for i,j in testCase:
+    print(solution(i,j))
