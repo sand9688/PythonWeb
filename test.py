@@ -1,9 +1,11 @@
-x = [1,9,8,7,6,5,4,3,2,1]
-y = x
-for i in x:
-    a = 0
-    for j in range(len(x)):
-        if int(i) > x[j]:
-            a += 1
-    y[a] = x
-print(x)
+
+
+number = "1231234"
+k = 3
+
+answer = sorted(number)
+print(answer)
+answer.sort(reverse=True)
+print(answer)
+answer = answer[0:len(number)-k]
+print(answer)
